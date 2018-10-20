@@ -1,0 +1,30 @@
+body {
+    background-color: #606274;
+}
+
+.titleImg {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#title {
+    text-align: center;
+}
+
+#movieTitle {
+    color: white;
+}
+
+#movieGenre {
+    color: white;
+}
+
+#movieRelease {
+    color: white;
+}
+
+#movieDescription {
+    color: white;
+}
