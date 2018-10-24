@@ -5,6 +5,24 @@
             "genre" : "Documentary",
             "release" : "TBD",
             "description": "Iconic scenes from around Nashville that make Nashville what it is."
+        },
+        {
+            "name" : "CSS: A Study in Suckage",
+            "genre" : "Documentary",
+            "release" : "TBD",
+            "description": "What is CSS and why do web developers hate it?"
+        },
+        {
+            "name" : "The Dark Side of Pie",
+            "genre" : "Documentary",
+            "release" : "TBD",
+            "description": "An inside look at the underground pie trade."
+        },
+        {
+            "name" : "Disney After Dark",
+            "genre" : "Documentary",
+            "release" : "TBD",
+            "description": "What really goes on in the 'Happiest Place' in the world when the lights go out?"
         }
     ]    
 }

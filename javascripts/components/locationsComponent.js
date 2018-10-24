@@ -16,7 +16,6 @@ const writeLocations = arrayofLocations => {
             </div>
         `;
     });
-    //write to dom
     $("#locations-div").append(domString);
 };
 
@@ -35,4 +34,25 @@ const chosenTime = (selectedBtn) => {
     })
 }
 
-export default { writeLocations, chosenLocations, chosenTime } 
+const timeColor = () => {
+    let times = $(".time");
+    times.each((i, time) => {
+        if ($(time).html() === "Morning") {
+            $(time).addClass("bg-warning")
+        } else if ($(time).html()=== "Afternoon"){
+            $(time).addClass("bg-primary")
+        } else if ($(time).html()=== "Evening"){
+            $(time).addClass("bg-success")
+        } else if ($(time).html()=== "After Dark"){
+            $(time).addClass("bg-secondary")
+        }
+    })
+}
+
+$.expr[':'].icontains = $.expr.createPseudo(function(text) {
+    return function(e) {
+        return $(e).text().toUpperCase().indexOf(text.toUpperCase()) >= 0;
+    };
+});
+
+export default {writeLocations, chosenLocations, chosenTime}

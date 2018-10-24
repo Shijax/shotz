@@ -1,6 +1,5 @@
-import locationsComponent from '../components/locationsCp.js'
+import locationsComponent from '../components/locationsComponent.js'
 
-// Load Locations
 const loadLocations = () => {
 $.get('../db/locations.json')
     .done(data => {

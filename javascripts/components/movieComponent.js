@@ -15,4 +15,4 @@ const writeMovies = arrayofMovies => {
     $("#movie-div").append(domString);
 };    
 
-export default {writeMovies}  
+export default {writeMovies}
